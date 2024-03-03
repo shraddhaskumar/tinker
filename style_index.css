@@ -87,7 +87,7 @@ button:hover {
     color: #000;
 }
 .butto{
-    padding left: 30px;
+    padding left: 10px;
     width:160px;
      height: 40px;
     font-size: 1rem;
@@ -97,6 +97,7 @@ button:hover {
     cursor: pointer;
     border-radius: 50px;
     margin-left: 100px;
+    margin-top:20px;
 }
 butto:hover {
     background: #fff;
