@@ -76,6 +76,7 @@ nav a:hover {
     /* Add margin to the right side of the button */
     margin-right: 20px; /* Adjust the value as needed */
     padding-left: 10px;
+    padding-top: 10px;
     width: 160px;
     height: 40px;
     font-size: 1rem;
@@ -95,6 +96,7 @@ nav a:hover {
 
 /* Adjusted button class for the second button */
 .button {
+     padding-top: 10px;
     padding-left: 10px;
     width: 160px;
     height: 40px;
