@@ -113,6 +113,7 @@ tfoot td {
 }
 
 .b {
+    position: fixed;
     bottom:20%;
     right:40%;
     color: rgb(88, 63, 125);
