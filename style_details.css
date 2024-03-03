@@ -93,6 +93,15 @@ tfoot td {
     font-weight: bold;
 }
 
+@keyframes typing {
+    from {
+        width: 0; /* Start with zero width */
+    }
+    to {
+        width: 100%; /* Expand to full width */
+    }
+}
+
 /* Keyframes for the typing animation */
 @keyframes letters {
     from {
