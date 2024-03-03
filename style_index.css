@@ -73,7 +73,6 @@ nav a:hover {
 /* Existing CSS */
 
 .butto {
-    border-color:white;
     /* Add margin to the right side of the button */
     margin-right: 20px; /* Adjust the value as needed */
     padding-left: 10px;
@@ -97,7 +96,6 @@ nav a:hover {
 
 /* Adjusted button class for the second button */
 .button {
-    border-color:white;
     margin-bottom:40px;
      padding-top: 10px;
     padding-left: 10px;
