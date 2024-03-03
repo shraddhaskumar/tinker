@@ -111,19 +111,4 @@ tfoot td {
     animation: typing 5s steps(40, end) infinite; /* Adjust animation duration as needed */
     border-right: 2px solid transparent; /* Add a border to simulate the typing cursor */
 }
-button {
-    padding-left: 10px;
-    width: 160px;
-    height: 40px;
-    font-size: 1rem;
-    border: none;
-    color: #9888db;
-    background: #000;
-    cursor: pointer;
-    border-radius: 50px;
-}
 
-button:hover {
-    background: #fff;
-    color: #000;
-}
