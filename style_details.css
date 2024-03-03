@@ -113,7 +113,8 @@ tfoot td {
 }
 
 .b {
-     padding: 10px 20px;
+    bottom:20%;
+    right:40%;
     color: rgb(88, 63, 125);
     cursor: pointer;
     background-color: white;
