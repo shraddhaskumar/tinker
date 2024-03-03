@@ -87,6 +87,7 @@ button:hover {
     color: #000;
 }
 .butto{
+    top:50%;
     padding left: 10px;
     width:160px;
      height: 40px;
