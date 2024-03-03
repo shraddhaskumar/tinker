@@ -70,24 +70,6 @@ nav a:hover {
     line-height: 1.5;
 }
 
-button {
-    margin-right: 20px; /* Adjust the value as needed */
-    padding-left: 10px;
-    width: 160px;
-    height: 40px;
-    font-size: 1rem;
-    border: none;
-    color: #9888db;
-    background: #000;
-    cursor: pointer;
-    border-radius: 50px;
-    display: inline-block;
-}
-
-.butto:hover {
-    background: #fff;
-    color: #000;
-}
 .butto{
     top:50%;
     padding left: 10px;
@@ -106,7 +88,25 @@ butto:hover {
     background: #fff;
     color: #000;
 }
-    
+.button {
+    padding-left: 10px;
+    width: 160px;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    color: #9888db;
+    background: #000;
+    cursor: pointer;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 20px; /* Add margin to the left side of the button */
+}
+
+/* Apply hover effect for the button class */
+.button:hover {
+    background: #fff;
+    color: #000;
+}
 .column-right {
     display: flex;
     justify-content: center;
