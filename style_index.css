@@ -96,7 +96,7 @@ button:hover {
     background: #000;
     cursor: pointer;
     border-radius: 50px;
-    margin-left: 50px;
+    display:inline-block;
     
 }
 butto:hover {
