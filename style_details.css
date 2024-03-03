@@ -1,86 +1,100 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    background-color:#9888db;
+    margin: 0;
+    background-color: #9888db;
 }
-h1,h2{
+
+h1,
+h2 {
     text-align: center;
     color: white;
 }
 
-.input-section{
+.input-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
-.input-section label{
+
+.input-section label {
     color: white;
     font-weight: bold;
     margin-right: 10px;
 }
-.input-section input[type="number"], .input-section input[type="date"]{
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
     padding: 15px;
     margin-right: 10px;
 }
+
 #category-select {
     padding: 15px;
     margin-right: 10px;
 }
-.input-section button{
-    padding: 10px 20px; 
+
+.input-section button {
+    padding: 10px 20px;
     background-color: rgb(238, 9, 9);
-    color:white;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width:100px;
+    width: 100px;
     height: 40px;
     font-size: 16px; /* Adjust font size if needed */
 }
-.expenses-list{
+
+.expenses-list {
     margin: 20px;
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
 }
 
-th,td{
+th,
+td {
     border: 3px solid #ddd;
     padding: 8px;
     text-align: left;
 }
 
-th{
+th {
     background-color: rgb(88, 63, 125);
     color: rgb(239, 231, 231);
 }
-tfoot td{
+
+tfoot td {
     font-weight: bold;
     color: white;
 }
-.delete-btn{
+
+.delete-btn {
     padding: 5px 10px;
     background-color: rgb(238, 9, 9);
-    color:white;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
+
 .typing-animation {
     overflow: hidden;
     white-space: nowrap;
     font-size: 40px;
 }
+
 #expense-table-body {
     color: white;
     font-weight: bold;
 }
+
 /* Keyframes for the typing animation */
-@keyframes letters{
+@keyframes letters {
     from {
         width: 0; /* Start with zero width */
     }
@@ -97,6 +111,7 @@ tfoot td{
     animation: typing 5s steps(40, end) infinite; /* Adjust animation duration as needed */
     border-right: 2px solid transparent; /* Add a border to simulate the typing cursor */
 }
+
 .b {
     padding: 10px 20px;
     color: rgb(88, 63, 125);
