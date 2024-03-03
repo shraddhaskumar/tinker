@@ -114,16 +114,17 @@ tfoot td {
 
 .b {
     position: fixed;
-    bottom:20%;
-    right:40%;
+    bottom: 20%;
+    right: 40%;
     color: rgb(88, 63, 125);
     cursor: pointer;
     background-color: white;
-    border: 2px solid rgb(88, 63, 125); /* Adding border */
+    border: 2px solid rgb(88, 63, 125);
     border-radius: 4px;
 }
 
 .b:hover {
     background-color: rgb(88, 63, 125);
-    color: white;
+    /* color: white; Remove this line */
 }
+
