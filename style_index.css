@@ -84,7 +84,7 @@ button {
     display: inline-block;
 }
 
-button:hover {
+.butto:hover {
     background: #fff;
     color: #000;
 }
