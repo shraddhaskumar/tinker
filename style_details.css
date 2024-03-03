@@ -116,15 +116,15 @@ tfoot td {
     position: fixed;
     bottom: 20px; /* Adjusted bottom position */
     right: 20px; /* Adjusted right position */
-    color: rgb(88, 63, 125);
+    color: white ;
     cursor: pointer;
-    background-color: white;
+    background-color:rgb(88, 63, 125);
     border: 2px solid rgb(88, 63, 125);
     border-radius: 4px;
 }
 
 .b:hover {
-    background-color: rgb(88, 63, 125);
-    color: white; /* Added to ensure text color changes on hover */
+    background-color:white; 
+    color: rgb(88, 63, 125);; /* Added to ensure text color changes on hover */
 }
 
