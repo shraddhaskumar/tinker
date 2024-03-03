@@ -111,20 +111,19 @@ tfoot td {
     animation: typing 5s steps(40, end) infinite; /* Adjust animation duration as needed */
     border-right: 2px solid transparent; /* Add a border to simulate the typing cursor */
 }
-
-.b {
-    position: fixed;
-    bottom: 20px; /* Adjusted bottom position */
-    right: 20px; /* Adjusted right position */
-    color: white ;
+button {
+    padding-left: 10px;
+    width: 160px;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    color: #9888db;
+    background: #000;
     cursor: pointer;
-    background-color:rgb(88, 63, 125);
-    border: 2px solid rgb(88, 63, 125);
-    border-radius: 4px;
+    border-radius: 50px;
 }
 
-.b:hover {
-    background-color:white; 
-    color: rgb(88, 63, 125);; /* Added to ensure text color changes on hover */
+button:hover {
+    background: #fff;
+    color: #000;
 }
-
