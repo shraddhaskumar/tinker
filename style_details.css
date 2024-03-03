@@ -102,7 +102,6 @@ tfoot td {
     }
 }
 
-/* Keyframes for the typing animation */
 @keyframes letters {
     from {
         width: 0; /* Start with zero width */
@@ -117,7 +116,6 @@ tfoot td {
     font: 30px;
     display: inline-block;
     overflow: hidden; /* Ensures that the text doesn't overflow */
-    animation: typing 5s steps(40, end) infinite; /* Adjust animation duration as needed */
+    animation: letters 5s steps(40, end) infinite; /* Corrected animation name */
     border-right: 2px solid transparent; /* Add a border to simulate the typing cursor */
 }
-
