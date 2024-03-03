@@ -85,7 +85,6 @@ nav a:hover {
     background: #000;
     cursor: pointer;
     border-radius: 50px;
-    margin-bottom:40px;
 }
 
 /* Apply hover effect for the butto class */
@@ -96,7 +95,6 @@ nav a:hover {
 
 /* Adjusted button class for the second button */
 .button {
-    margin-bottom:40px;
      padding-top: 10px;
     padding-left: 10px;
     width: 160px;
