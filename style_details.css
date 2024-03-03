@@ -97,3 +97,14 @@ tfoot td{
     animation: typing 5s steps(40, end) infinite; /* Adjust animation duration as needed */
     border-right: 2px solid transparent; /* Add a border to simulate the typing cursor */
 }
+.b{
+    padding:10px 20px;
+    color:rgb(88, 63, 125);
+    cursor:pointer;
+    background-color:white;
+}
+.b:hover{
+    background-color:
+     background color:rgb(88, 63, 125);
+    color:white;
+}
