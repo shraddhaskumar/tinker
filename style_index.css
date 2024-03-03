@@ -109,21 +109,7 @@ button:hover {
     border-right: 2px solid transparent;
 }
 
-.b {
-    position: fixed;
-    bottom: 20px; /* Adjusted bottom position */
-    right: 20px; /* Adjusted right position */
-    color: rgb(88, 63, 125);
-    cursor: pointer;
-    background-color: white;
-    border: 2px solid rgb(88, 63, 125);
-    border-radius: 4px;
-}
 
-.b:hover {
-    background-color: rgb(88, 63, 125);
-    color: white; /* Added to ensure text color changes on hover */
-}
 
 @media screen and (max-width: 768px) {
     .hero-container {
