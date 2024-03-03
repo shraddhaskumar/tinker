@@ -86,7 +86,23 @@ button:hover {
     background: #fff;
     color: #000;
 }
-
+.butto{
+    padding left: 30px;
+    width:160px;
+     height: 40px;
+    font-size: 1rem;
+    border: none;
+    color: #9888db;
+    background: #000;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+butto:hover {
+    background: #fff;
+    color: #000;
+}
+    
 .column-right {
     display: flex;
     justify-content: center;
