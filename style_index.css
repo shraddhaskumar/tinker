@@ -109,6 +109,22 @@
     animation: typing 5s steps(40, end) infinite;
     border-right: 2px solid transparent;
   }
+.b {
+    position: fixed;
+    bottom: 20%;
+    right: 40%;
+    color: rgb(88, 63, 125);
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid rgb(88, 63, 125);
+    border-radius: 4px;
+}
+
+.b:hover {
+    background-color: rgb(88, 63, 125);
+    /* color: white; Remove this line */
+}
+
 
   
   @media screen and (max-width: 768px) {
